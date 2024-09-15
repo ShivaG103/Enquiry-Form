@@ -37,7 +37,7 @@ function App() {
 
   const submitData = async (name, contact, email, propertyType , possession, city, area, budget, comments) => {
     try {
-      const response = await axios.post("http://localhost:4000/enquire", {
+      const response = await axios.post("https://enquiry-form-fy0p.onrender.com/enquire", {
         name, contact, email, propertyType , possession, city, area, budget, comments
       })
       
