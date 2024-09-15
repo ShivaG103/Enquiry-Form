@@ -20,7 +20,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://ankit-realestate.vercel.app/",
+    origin: "https://ankit-realestate.vercel.app",
     credentials: true,
   })
   );
