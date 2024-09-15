@@ -91,7 +91,7 @@ function App() {
                   Name <sup className="text-red-500">*</sup>
                 </p>
                 <input
-                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-2 focus:outline-none focus:shadow-outline"
                   type="text"
                   placeholder="Enter your name"
                   name="name"
@@ -106,7 +106,7 @@ function App() {
                   Contact Number <sup className="text-red-500">*</sup>
                 </p>
                 <input
-                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-2 focus:outline-none focus:shadow-outline"
                   type="text"
                   placeholder="Enter your contact number"
                   name="contact"
@@ -119,7 +119,7 @@ function App() {
               <label htmlFor="email" className="text-black flex flex-col">
                 <p className="mb-1 text-[0.875rem] ">Email Address</p>
                 <input
-                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-2 focus:outline-none focus:shadow-outline"
                   type="email"
                   placeholder="Enter your email address"
                   name="email"
@@ -141,7 +141,7 @@ function App() {
                   required
                   value={propertyType}
                   onChange={handleOnChange}
-                  className="shadow mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-2 focus:outline-none focus:shadow-outline"
                 >
                   <option value="Residential">Residential</option>
                   <option value="Commmercial">Commmercial</option>
@@ -159,7 +159,7 @@ function App() {
                   required
                   value={possession}
                   onChange={handleOnChange}
-                  className="shadow mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-2 focus:outline-none focus:shadow-outline"
                 >
                   <option value="Ready To Move In">Ready To Move In</option>
                   <option value="Under Construction">Under Construction</option>
@@ -171,7 +171,7 @@ function App() {
                   City <sup className="text-red-500">*</sup>
                 </p>
                 <input
-                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-2 focus:outline-none focus:shadow-outline"
                   type="test"
                   placeholder="Enter your city"
                   name="city"
@@ -186,7 +186,7 @@ function App() {
                   Area <sup className="text-red-500">*</sup>
                 </p>
                 <input
-                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-2 focus:outline-none focus:shadow-outline"
                   type="text"
                   placeholder="Enter your area"
                   name="area"
@@ -199,7 +199,7 @@ function App() {
               <label htmlFor="budget" className="text-black flex flex-col">
                 <p className="mb-1 text-[0.875rem]  ">Budget</p>
                 <input
-                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-2 focus:outline-none focus:shadow-outline"
                   type="text"
                   placeholder="Enter your budget"
                   name="budget"
@@ -211,7 +211,7 @@ function App() {
               <label htmlFor="comments" className="text-black flex flex-col">
                 <p className="mb-1 text-[0.875rem] ">Comments</p>
                 <textarea
-                  className="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-2 focus:outline-none focus:shadow-outline"
                   type="text"
                   placeholder="Type comments here... (optional)"
                   name="comments"
